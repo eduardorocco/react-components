@@ -1,8 +1,9 @@
 .card {
     
     border-radius: 8px;
-    box-shadow: black 0px 0px 10px ;
+    box-shadow: rgba(0, 0, 0, 0.31)   0px 0px 25px 0px ;
     max-width: 600px;
+    background-color: white;
 }
 
 .image {
@@ -14,7 +15,7 @@
 }
 
 .contentContainer{
-    padding: 10px 8px 10px 8px;
+    padding: 10px 8px;
 }
 
 .title{
