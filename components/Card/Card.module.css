@@ -1,0 +1,38 @@
+.card {
+    
+    border-radius: 8px;
+    box-shadow: black 0px 0px 10px ;
+    max-width: calc(100% / 2.5);
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    
+}
+
+.contentContainer{
+    padding: 10px 8px 10px 8px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.text{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.button{
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+    padding: 7px;
+    display: inline-block;
+    font-size: 12px;
+}
