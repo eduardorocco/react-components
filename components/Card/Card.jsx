@@ -3,7 +3,7 @@ import style from './Card.module.css'
 export default function Card() {
     return (
         <div className={style.card}>
-            <div className="body">
+            <div>
                 <img className={style.image} src="https://picsum.photos/600/400" alt="" />
                 <div className={style.contentContainer}>
                     <div className={style.title}>Titolo del post</div>
